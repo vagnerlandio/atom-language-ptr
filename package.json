@@ -1,0 +1,16 @@
+{
+  "name": "language-ptr",
+  "author": "Vagnerlandio Nunes <vagnerlandio@gmail.com>",
+  "version": "0.0.1",
+  "description": "Provides syntax highlighting Pokémon B/W Translation Files",
+  "keywords": [
+    "grammar",
+    "pokémon",
+    "translation"
+  ],
+  "repository": "https://github.com/vagnerlandio/atom-language-ptr",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  }
+}

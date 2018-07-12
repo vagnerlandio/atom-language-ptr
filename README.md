@@ -1,2 +1,2 @@
 # atom-language-ptr
-Provide a syntax highlighting for help translate Pokémon Black/White
+Provides syntax highlighting Pokémon B/W Translation Files
