@@ -1,0 +1,38 @@
+fileTypes: [
+  'txt'
+  'ptr'
+]
+name: 'Pokémon Translation File'
+patterns: [
+  {
+    include: '#numbers'
+  }
+  {
+    include: "#ftext"
+  }
+]
+repository:
+  numbers:
+    patterns: [
+      {
+        match: "\\b[0-9]+\\b"
+        name: "constant.numeric.dec"
+      }
+      {
+        match: "\\$[0-9a-fA-F]+\\b"
+        name: "constant.numeric.hex"
+      }
+      {
+        match: "\\b\\%[01]+\\b"
+        name: "constant.numeric.bin"
+      }
+    ]
+  ftext:
+    patterns: [
+      {
+        match: "\\b\\\\xf+e\\b"
+        name: "constant.numeric"
+      }
+    ]
+
+'scopeName': 'text.ptr'
