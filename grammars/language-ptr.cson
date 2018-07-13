@@ -30,8 +30,8 @@ repository:
   ftext:
     patterns: [
       {
-        match: "\\b\\\\xf+e\\b"
-        name: "constant.numeric"
+        match: "\\\\x[f0-9]+e?"
+        name: "constant.character.escape"
       }
     ]
 
