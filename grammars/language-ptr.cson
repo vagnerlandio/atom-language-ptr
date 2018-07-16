@@ -1,8 +1,9 @@
+scopeName: 'source.ptr'
+name: 'Pokémon Translation File'
 fileTypes: [
   'txt'
   'ptr'
 ]
-name: 'Pokémon Translation File'
 patterns: [
   {
     include: '#numbers'
@@ -34,5 +35,3 @@ repository:
         name: "constant.character.escape"
       }
     ]
-
-'scopeName': 'text.ptr'
